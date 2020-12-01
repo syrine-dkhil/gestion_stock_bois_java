@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="table" layoutX="25.0" layoutY="87.0" prefHeight="200.0" prefWidth="550.0">
+               <columns>
+                  <TableColumn fx:id="codes_art" prefWidth="61.0" text="code_art" />
+                  <TableColumn fx:id="nom_art" prefWidth="61.0" text="nom_art" />
+                  <TableColumn fx:id="choix" prefWidth="61.0" text="choix" />
+                  <TableColumn fx:id="epaisseur" prefWidth="61.0" text="epaisseur" />
+                  <TableColumn fx:id="largeur" prefWidth="61.0" text="largeur" />
+                  <TableColumn fx:id="longueur" prefWidth="61.0" text="longueur" />
+                  <TableColumn fx:id="couleur" prefWidth="61.0" text="couleur" />
+                  <TableColumn fx:id="Prix_U" prefWidth="61.0" text="Prix_U" />
+                  <TableColumn fx:id="quantite" prefWidth="61.0" text="quantite" />
+               </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

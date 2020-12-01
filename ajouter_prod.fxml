@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ajouter_prodController">
+   <bottom>
+      <Pane prefHeight="600.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="109.0" layoutY="56.0" text="ajouter un nouveau produit ">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="163.0" layoutY="24.0" text="SCBMC">
+               <font>
+                  <Font name="System Bold Italic" size="22.0" />
+               </font>
+            </Label>
+            <Separator layoutX="100.0" layoutY="99.0" prefWidth="200.0" />
+            <Label layoutX="47.0" layoutY="128.0" lineSpacing="5.0" text="code article">
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="47.0" layoutY="167.0" lineSpacing="5.0" text="nom article">
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="47.0" layoutY="206.0" lineSpacing="5.0" text="choix">
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="47.0" layoutY="284.0" lineSpacing="5.0" text="largeur">
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="47.0" layoutY="245.0" lineSpacing="5.0" text="epaisseur">
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="47.0" layoutY="323.0" lineSpacing="5.0" text="longueur">
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="47.0" layoutY="362.0" lineSpacing="5.0" text="couleur">
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="47.0" layoutY="440.0" lineSpacing="5.0" text="quantite">
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="47.0" layoutY="401.0" lineSpacing="5.0" text="prix d'unité">
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <TextField fx:id="code_art" layoutX="151.0" layoutY="124.0" promptText="entrer code article" />
+            <TextField fx:id="nom_art" layoutX="151.0" layoutY="163.0" promptText="entrer nom article" />
+            <TextField fx:id="choix" layoutX="151.0" layoutY="202.0" promptText="entrer choix" />
+            <TextField fx:id="epaisseur" layoutX="151.0" layoutY="241.0" promptText="entrer epaisseur" />
+            <TextField fx:id="largeur" layoutX="151.0" layoutY="280.0" promptText="entrer largeur" />
+            <TextField fx:id="longueur" layoutX="151.0" layoutY="319.0" promptText="entrer longueur" />
+            <TextField fx:id="couleur" layoutX="151.0" layoutY="358.0" promptText="entrer couleur" />
+            <TextField fx:id="Prix_U" layoutX="151.0" layoutY="397.0" promptText="entrer prix d'unité" />
+            <TextField fx:id="quantite" layoutX="151.0" layoutY="436.0" promptText="entrer quantité" />
+            <Separator layoutX="100.0" layoutY="533.0" prefWidth="200.0" />
+            <Label layoutX="103.0" layoutY="545.0" prefHeight="24.0" prefWidth="206.0" text="Rue Hbib Bouguatfa, Ras Jebel 7070" />
+            <Label layoutX="131.0" layoutY="569.0" text="Tel: 98 646 725 / 52 646 725" />
+            <Button fx:id="exit" layoutX="251.0" layoutY="495.0" mnemonicParsing="false" onMousePressed="#exit" text="EXIT" />
+            <Button fx:id="save" layoutX="110.0" layoutY="496.0" mnemonicParsing="false" onAction="#save" prefHeight="24.0" prefWidth="42.0" text="OK" />
+            <Button fx:id="back" layoutX="180.0" layoutY="495.0" mnemonicParsing="false" onAction="#back" text="BACK" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

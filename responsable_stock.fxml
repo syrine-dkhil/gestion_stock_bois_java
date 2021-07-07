@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="395.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.responsable_stockController">
+   <children>
+      <Label layoutX="141.0" layoutY="68.0" text="Responsable_stock">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="172.0" layoutY="30.0" text="SCBMC">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Separator layoutX="101.0" layoutY="100.0" prefHeight="6.0" prefWidth="200.0" />
+      <Separator layoutX="101.0" layoutY="318.0" prefHeight="6.0" prefWidth="200.0" />
+      <Button fx:id="afficher" layoutX="148.0" layoutY="128.0" mnemonicParsing="false" onAction="#afficher" text="affichage du stock" textAlignment="CENTER" />
+      <Button fx:id="ajouter" layoutX="148.0" layoutY="166.0" mnemonicParsing="false" onAction="#ajouter" text="ajout d'un produit" textAlignment="CENTER" />
+      <Button fx:id="modifier" layoutX="128.0" layoutY="204.0" mnemonicParsing="false" onAction="#modifier" text="modification d'un produit" textAlignment="CENTER" />
+      <Button fx:id="supprimer" layoutX="130.0" layoutY="241.0" mnemonicParsing="false" onAction="#supprimer" text="suppression d'un produit" textAlignment="CENTER" />
+      <Label layoutX="97.0" layoutY="334.0" prefHeight="20.0" prefWidth="206.0" text="Rue Hbib Bouguatfa, Ras Jebel 7070" />
+      <Label layoutX="125.0" layoutY="354.0" text="Tel: 98 646 725 / 52 646 725" />
+   </children>
+</AnchorPane>
